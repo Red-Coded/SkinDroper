@@ -1,0 +1,25 @@
+name: 'SkinDroper'
+version: '${project.version}'
+main: me.trex.skindroper.SkinDroper
+api-version: '1.21'
+load: STARTUP
+commands:
+  skindropper:
+    description: OpensMenu
+    permission: skindropper.admin.openmenu
+  sdd:
+    description: O
+    permission: skindropper.admin.sdd
+permissions:
+  skindropper.admin:
+    default: op
+    description: allows you to open the skindropper menu
+    children:
+      skindropper.admin.openmenu:
+        default: op
+      skindropper.admin.sdd:
+        default: op
+      skindropper.admin.skinloader:
+        default: op
+        description: Only configure when skinloader is enabled.
+#depend: [DiscordSRV]

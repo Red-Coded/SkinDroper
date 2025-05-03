@@ -1,0 +1,16 @@
+# all string variables support HEX/Formating code
+prefix: "&#6B27D7\uD835\uDDE6&#7127D4\uD835\uDDDE&#7727D2\uD835\uDDDC&#7D27CF\uD835\uDDE1&#8327CD\uD835\uDDD7&#8927CA\uD835\uDDE5&#8F27C7\uD835\uDDE2&#9527C5\uD835\uDDE3&#9B27C2\uD835\uDDE3&#A127BF\uD835\uDDD8&#A727BD\uD835\uDDE5"
+
+confirm_time: 10 #Time allowed to confirm to apply skin in seconds
+
+messages:
+  wrong_game_mode: " &cAction CAN NOT be preformed in this game mode."
+  skin_applied: " &aApplied skin!"
+  skin_attempt: " &bClick again to apply skin!"
+
+# SkinLoader, Built in resource pack creator !!does not have builtin encryption!!
+skinloader:
+  enabled: false
+  custom_model_data_tool: 100000000 # Do not change unless resting
+  custom_model_data_armour: 100000000 # Do not change unless resting
+  packdc: "PackMAN"
